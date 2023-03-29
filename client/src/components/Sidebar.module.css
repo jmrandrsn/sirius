@@ -1,0 +1,20 @@
+/* Sidebar.module.css */
+.sidebar {
+    height: 100vh;
+    width: 80px;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+  }
+  
+  .sidebarIcon {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
