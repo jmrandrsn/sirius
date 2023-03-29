@@ -9,6 +9,8 @@ const Sidebar = () => {
 			<div className={styles.sidebarIcon}>Icon 2</div>
 			<div className={styles.sidebarIcon}>Icon 3</div>
 			<div className={styles.sidebarIcon}>Icon 4</div>
+			<div className={styles.sidebarIcon}>Icon 5</div>
+			<div className={styles.sidebarIcon}>Icon 6</div>
 		</div>
 	);
 };
