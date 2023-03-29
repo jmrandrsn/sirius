@@ -11,9 +11,9 @@ const App = () => {
 				<Sidebar />
 			</div>
 			<div className={styles.taskContainer}>
+				<h2>Tasks</h2>
 				<TaskBar /> {/* Use the TaskBar component */}
 				{/* Add your task content here */}
-				<h2>Tasks</h2>
 			</div>
 			<div className={styles.mainContainer}>
 				<div className={styles.header}>IFYKYK</div>
