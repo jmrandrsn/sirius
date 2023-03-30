@@ -1,7 +1,7 @@
 /* components/TaskBar.module.css */
 .taskBar {
     width: 100%;
-    background-color: #444;
+/*     background-color: #444; */
     color: white;
     padding: 10px;
     /* Add any other styles you want for the TaskBar component */

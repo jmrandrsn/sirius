@@ -6,7 +6,9 @@ const TaskBar = () => {
 	return (
 		<div className={styles.taskBar}>
 			{/* Add your TaskBar content here */}
-			<h3>TaskBar Content</h3>
+			<h3 style={{ backgroundColor: '#444' }}>Yeezy Supply</h3>
+			<h3>FootLocker Cook</h3>
+			<h3>Supreme Cook</h3>
 		</div>
 	);
 };
