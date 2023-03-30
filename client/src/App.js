@@ -6,6 +6,7 @@ import styles from './App.module.css';
 import TaskTable from './pages/tasktable';
 import Calendar from './components/Calendar';
 import PageContext from './PageContext';
+import NewsFeed from './components/NewsFeed';
 
 const App = () => {
 	const [activePage, setActivePage] = useState('Tasks');
@@ -30,6 +31,7 @@ const App = () => {
 					{activePage === 'Snkrs' && (
 						<>
 							<h2>Under Construction</h2>
+							<NewsFeed />
 						</>
 					)}
 					{activePage === 'Proxy' && (
