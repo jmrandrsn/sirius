@@ -39,3 +39,24 @@
   flex: 1;
   padding: 20px;
 }
+
+/* App.module.css */
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headingButton {
+  background-color: #c54242;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.headingButton:hover {
+  background-color: #a53636;
+}
